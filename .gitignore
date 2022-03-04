@@ -1,0 +1,5 @@
+# ignora archivos de iamgenes
+
+*.jpg
+*.png
+*.gif
