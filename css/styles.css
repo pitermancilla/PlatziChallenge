@@ -91,12 +91,23 @@ body
         justify-content: center;
         align-items: center;
     }
+    /*Servicios*/
+    .contacto
+        {
+            text-align: left;
+        }
     .list-services
     {
         display: flex;
         justify-content: center;
         align-items: center;
     }
+        /*
+        .list-services figure 
+        {
+
+        }
+        */
 
 /* 2 GENERIC ITEM*/
     /*Item Header*/
@@ -128,6 +139,15 @@ body
 
         }
     p {margin-bottom: 40px;}
+    /*Boton Contacto*/
+    .btn 
+        {
+            border: 2px solid #fff;
+            padding: 10px 40px;
+            display: inline-block;
+            text-decoration: none;
+            color: #fff;
+        }
     
 /* 3 PARTS OF THE WEB*/
     /*Clase content para el landing page*/
@@ -152,10 +172,22 @@ body
             background: #EB0042;
             color: #fff;
         }
-        .services p
+        
+    .contacto
         {
-            
+            background: url(../images/dummy-contacto.jpg) no-repeat center top;
+            background-size: cover;
+            color: #fff;
         }
+        .contain
+            {
+                max-width: 1055px;
+                margin: 0 auto;
+            }
+            .contain p
+                {
+                    max-width: 450px;
+                }
 /* 4 LIST */
 
 /* 5 FORM */
