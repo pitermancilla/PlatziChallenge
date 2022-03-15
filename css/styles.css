@@ -9,10 +9,10 @@
     6. ANIMATIONS
  ----------------------------
     COLORS
-    color 1 => #418DFF
+    color 1 => #439CFE
     color 2 => #EB0042
-    color 3 => #FF9A08
-    color 4 => #95EB00
+    color 3 => #0D8C55
+    color 4 => #F06A47
 */
 
 /* 0 RESET */
@@ -122,8 +122,8 @@ body
     .navbar 
     {
         height: 63px;
-        background-color: #418DFF;
-        border-bottom: 1px dashed #418D;
+        background-color: #439CFE;
+        border-bottom: 1.2px dashed #7960B3;
     }
         .navbar a 
         {
@@ -160,7 +160,7 @@ body
     /*Quien Soy*/
     .who 
     {
-        background: #418DFF;
+        background: #439CFE;
         color: #fff;    
     }
         .who p
@@ -171,7 +171,7 @@ body
     /*Servicios*/
     .services 
         {
-            background: #EB0042;
+            background: #7960B3;
             color: #fff;
         }
         
