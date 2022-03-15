@@ -71,11 +71,17 @@ body
 }
     .header 
     {
-        background-color: darkred;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 /* 2 GENERIC ITEM*/
     .header 
-    {}
+    {
+        background: url(../images/dummy-header.jpg) no-repeat center top;
+        background-size: cover;
+        height: 450px;
+    }
 /* 3 PARTS OF THE WEB*/
 
 /* 4 LIST */
