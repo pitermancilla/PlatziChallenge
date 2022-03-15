@@ -102,13 +102,14 @@ body
         justify-content: center;
         align-items: center;
     }
-        /*
-        .list-services figure 
+    .list-services figure
         {
-
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column;
         }
-        */
-
+        
 /* 2 GENERIC ITEM*/
     /*Item Header*/
     .header 
@@ -120,8 +121,9 @@ body
     /*Item Navigation*/
     .navbar 
     {
-        height: 60px;
+        height: 63px;
         background-color: #418DFF;
+        border-bottom: 1px dashed #3498db ;
     }
         .navbar a 
         {
@@ -164,7 +166,7 @@ body
         .who p
         {
             max-width: 1055px;
-            margin: auto;
+            margin: 0 auto;
         }
     /*Servicios*/
     .services 
@@ -184,11 +186,46 @@ body
                 max-width: 1055px;
                 margin: 0 auto;
             }
-            .contain p
+            .contacto p
                 {
                     max-width: 450px;
                 }
 /* 4 LIST */
+
+.list-services figure 
+        {
+            position: relative;
+            width: 150px;
+            height: 190px;
+        }
+        .list-services figure:after
+            {
+                content: "";
+                position: absolute;
+                top: 0%;
+                left: 0%;
+                border-radius: 50%;
+                z-index: 0;
+                background: #fff;
+                width: 150px;
+                height: 150px;
+            }
+        .list-services img
+            {
+                position: relative;
+                z-index: 1; 
+            }
+        .list-services li 
+            {
+                padding: 0 30px;
+            }
+        .list-services figcaption
+            {
+                position: relative;
+                left: 0%;
+                right: 0%;
+                bottom: -40px;
+            }
 
 /* 5 FORM */
 
