@@ -1,3 +1,11 @@
+<<<<<<< HEAD
 *.jpg
 *.png
 
+=======
+# ignora archivos de iamgenes
+
+*.jpg
+*.png
+*.gif
+>>>>>>> b78b697950669c05c504194e15039bb2c4462df6
